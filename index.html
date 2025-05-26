@@ -4,32 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bestellapp</title>
+    <link rel="shortcut icon" href="./assets/icons/favicon/android-chrome-512x512.png" type="image/x-icon">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./styles/assets.css">
     <link rel="stylesheet" href="./styles/fonts.css">
     <link rel="stylesheet" href="./styles/basket.css">
     <link rel="stylesheet" href="./styles/standard.css">
+    <link rel="stylesheet" href="./styles/main_content.css">
 </head>
-<body>
+<body onload="init()">
     <header>
-
+        <img src="./assets/icons/logo/Logo.png" alt="header_image">
     </header>
 
-    <div class="total-content">
-        <div class="main-content">
-            <div class="test-content">
-                <div class="test">
-                    Ich bin ein Test
+    <div class="total_content">
+        <div class="main_content">
+            <div class="restaurant_information">
+                <img class="banner_image" src="/assets/img/indian_food_banner_image.jpg" alt="indian_food_banner_image">
+                <img class="restaurant_logo" src="/assets/icons/logo/restaurant_logo.png" alt="">
+                <div class="restaurant_name_container">
+                    <h1>Indian Dream</h1>
+                    <p>Besuchen Sie uns und überzeugen Sie sich selbst von unserer indischen Spezialitäten!</p>
+                    <p class="restaurant_rating_text">Bewertung (4,7 von 5 Sternen)</p>
                 </div>
             </div>
+            <div class="category_bar">
+                <p class="category_text">Hauptgerichte</p>
+                <p class="category_text">Beilagen</p>
+                <p class="category_text">Desserts</p>
+                <p class="category_text">Getränke</p>
+                <p class="category_text">Beliebt</p>
+            </div>
+            <div class="main_dishes_header">
+                <img class="main_dishes_banner_image" src="/assets/img/main_dishes_banner.jpg" alt="main_dishes_banner_image">
+                <h2>Hauptgerichte</h2>
+            </div>
+            <div class="order_dishes_container" id="order_dishes_container">
+                <!-- <div class="single_dish_container">
+                    <div class="dish_name_and_add_dish_container">
+                        <h3>Chicken Tikka Masala</h3>
+                        <img onclick="addDishtoBasket()" class="plus_sign" src="/assets/icons/logo/plus_sign.png" alt="plus_sign">
+                    </div>
+                    <p class="dish_description">Zart gegrillte Hähnchenstücke in einer cremigen, leicht pikanten Tomaten-Curry-Sauce - ein Klassiker der indischen Küche.</p>
+                    <p class="dish_price_text">12.90€</p>
+                </div> -->
+            </div>
         </div>
-        <div class="basket-content">
+        <div class="basket_content">
             <div class="basket">
                 Basket
             </div>
         </div>
     </div>
-    
 </body>
 <script src="./scripts/dishes_db.js"></script>
 <script src="./scripts/template.js"></script>

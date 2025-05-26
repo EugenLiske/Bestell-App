@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/roboto-v47-latin/roboto-v47-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* akaya-kanadaka-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Akaya Kanadaka';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/akaya-kanadaka-v17-latin/akaya-kanadaka-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body {
+    font-family: 'Akaya Kanadaka';
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 48px;
+    margin-top: 16px;
+    padding-left: 16px;
+}
+
+h3 {
+    font-size: 32px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.restaurant_rating_text {
+    font-family: 'Roboto';
+    color: rgb(255,128,0);;
+    font-size: 18px;
+    margin-top: 32px;
+}
+
+.category_text:hover {
+    color: rgb(10, 76, 97);
+    font-weight: 700;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+/* .dish_description {
+    padding-left: 16px;
+} */
+
+.dish_price_text {
+    margin-top: 16px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: rgb(255,128,0);;
+}

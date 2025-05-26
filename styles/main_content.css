@@ -1,0 +1,83 @@
+.total_content {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.main_content {
+    width: calc(100% - 350px);
+    /* box-shadow: 1px 0 5px black ; */
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: rgba(0, 0, 0, 0.504);
+}
+
+.restaurant_information {
+    position: relative;
+}
+
+.banner_image_container {
+    background-image: url("/assets/img/indian_food_banner_image.jpg");
+    height: 200px;
+    background-size: cover;
+}
+
+.restaurant_name_container {
+    padding: 32px;
+}
+
+.category_bar {
+    background-color: rgb(255 128 0 / 50%);
+    padding: 32px;
+    display: flex;
+    gap: 48px;
+}
+
+.main_dishes_header {
+    padding-top: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.order_dishes_container {
+    height: 2000px;
+    width: 100%;
+    padding: 32px;
+    font-size: 32px;
+}
+
+.single_dish_container {
+    padding-left: 16px;
+    padding-bottom: 16px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255 128 0 / 80%);
+    margin-bottom: 32px;
+}
+
+.single_dish_container:hover {
+    background-color: rgb(253, 200, 144);
+}
+
+.dish_name_and_add_dish_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.basket_content {
+    width: 350px;
+    flex-grow: 1;
+    padding: 16px;
+}
+
+.basket {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(233, 112, 112);
+    position: sticky;
+    top: 16px;
+}
+
+
