@@ -38,3 +38,21 @@ header img {
     border-bottom-color: rgb(255 128 0 / 80%);
     padding: 2px;
 }
+
+.plus_sign:hover {
+    background-color: rgb(21, 249, 21);
+}
+
+.basket_icons {
+    border-radius: 50%;
+    height: 32px;
+}
+
+.basket_icons:hover {
+    background-color: rgb(255 128 0 / 50%);
+}
+
+.shopping_icon_empty_basket {
+    height: 64px;
+    width: 64px;
+}

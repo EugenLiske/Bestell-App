@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./styles/assets.css">
     <link rel="stylesheet" href="./styles/fonts.css">
-    <link rel="stylesheet" href="./styles/basket.css">
+    <link rel="stylesheet" href="./styles/side_content.css">
     <link rel="stylesheet" href="./styles/standard.css">
     <link rel="stylesheet" href="./styles/main_content.css">
 </head>
@@ -40,19 +40,18 @@
                 <h2>Hauptgerichte</h2>
             </div>
             <div class="order_dishes_container" id="order_dishes_container">
-                <!-- <div class="single_dish_container">
-                    <div class="dish_name_and_add_dish_container">
-                        <h3>Chicken Tikka Masala</h3>
-                        <img onclick="addDishtoBasket()" class="plus_sign" src="/assets/icons/logo/plus_sign.png" alt="plus_sign">
-                    </div>
-                    <p class="dish_description">Zart gegrillte Hähnchenstücke in einer cremigen, leicht pikanten Tomaten-Curry-Sauce - ein Klassiker der indischen Küche.</p>
-                    <p class="dish_price_text">12.90€</p>
-                </div> -->
             </div>
         </div>
-        <div class="basket_content">
-            <div class="basket">
-                Basket
+        <div class="side_content">
+            <div class="basket_content">
+                <h2 class="basket_headline">Warenkorb</h2>
+                <hr>
+                <div class="basket" id="basket">
+                    <div id="empty_basket_information" class="empty_basket_information">
+                        <img class="shopping_icon_empty_basket" src="/assets/icons/logo/shopping_bag.png" alt="">
+                        <p class="shopping_text_empty_basket">Wähle leckere Gerichte aus und bestelle dein Menü</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

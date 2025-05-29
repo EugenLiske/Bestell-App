@@ -24,13 +24,17 @@ h1 {
 
 h2 {
     font-size: 48px;
-    margin-top: 16px;
-    padding-left: 16px;
+    padding: 16px;
 }
 
 h3 {
     font-size: 32px;
     margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+h4 {
+    font-size: 24px;
     margin-bottom: 16px;
 }
 
@@ -50,6 +54,7 @@ p {
     font-weight: 700;
     text-decoration: underline;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 /* .dish_description {
@@ -61,4 +66,15 @@ p {
     font-family: 'Roboto';
     font-weight: bold;
     color: rgb(255,128,0);;
+}
+
+.basket_headline {
+    text-align: center;
+    font-size: 32px;
+}
+
+.shopping_text_empty_basket {
+    font-family: 'Akaya Kanadaka';
+    color: rgb(14,46,64);
+    text-align: center;
 }
