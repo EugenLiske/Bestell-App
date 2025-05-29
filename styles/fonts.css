@@ -78,3 +78,9 @@ p {
     color: rgb(14,46,64);
     text-align: center;
 }
+
+.total_price_text {
+    padding: 16px;
+    font-size: 20px;
+    font-weight: bold;
+}

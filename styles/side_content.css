@@ -6,7 +6,6 @@
 
 .basket_content {
     width: 100%;
-    height: 400px;
     position: sticky;
     top: 0px;
 }
@@ -43,4 +42,45 @@
     display: flex;
     align-items: center;
     gap: 16px;
+}
+
+.total_price_area {
+    display: flex;
+    flex-direction: column;
+}
+
+.total_price_bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order_button_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.order_button {
+    background: rgb(17, 135, 171);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 16px 32px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.order_button:hover {
+    filter: drop-shadow(0px 0px 2px rgb(17, 27, 171));
+}
+
+.screen_after_order {
+    font-family: 'Akaya Kanadaka';
+    padding: 96px 48px;
+    text-align: center;
+    font-size: 32px;
 }

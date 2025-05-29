@@ -43,13 +43,22 @@ header img {
     background-color: rgb(21, 249, 21);
 }
 
-.basket_icons {
+.basket_icons_plus_minus {
     border-radius: 50%;
     height: 32px;
 }
 
-.basket_icons:hover {
+.basket_icons_plus_minus:hover {
     background-color: rgb(255 128 0 / 50%);
+}
+
+.delete_dish_icon {
+    border-radius: 50%;
+    height: 32px;
+}
+
+.delete_dish_icon:hover {
+    filter: drop-shadow(0px 0px 2px rgb(250, 0, 0))
 }
 
 .shopping_icon_empty_basket {

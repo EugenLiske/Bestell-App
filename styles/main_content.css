@@ -9,7 +9,8 @@
     /* box-shadow: 1px 0 5px black ; */
     border-right-width: 1px;
     border-right-style: solid;
-    border-right-color: rgba(0, 0, 0, 0.504);
+    border-right-color: rgba(0, 0, 0, 0.5);
+    flex-grow: 1;
 }
 
 .restaurant_information {
@@ -40,7 +41,6 @@
 }
 
 .order_dishes_container {
-    height: 2000px;
     width: 100%;
     padding-top: 16px;
     padding-left: 32px;

@@ -6,3 +6,8 @@ header {
     background-color: rgb(255,128,0);
     padding: 24px;
 }
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 64px;
+}

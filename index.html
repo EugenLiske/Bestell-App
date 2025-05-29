@@ -43,7 +43,7 @@
             </div>
         </div>
         <div class="side_content">
-            <div class="basket_content">
+            <div class="basket_content" id="basket_content">
                 <h2 class="basket_headline">Warenkorb</h2>
                 <hr>
                 <div class="basket" id="basket">
@@ -52,9 +52,20 @@
                         <p class="shopping_text_empty_basket">Wähle leckere Gerichte aus und bestelle dein Menü</p>
                     </div>
                 </div>
+                <hr class="d_none" id="basket_bottom_separator">
+                <div class="total_price_area d_none" id="total_price_area">
+                    <div class="total_price_bar">
+                        <p class="total_price_text">Gesamtpreis</p>
+                        <p id="total_price" class="total_price_text"> €</p>
+                    </div>
+                    <div class="order_button_container">
+                        <button onclick="orderDishes()" class="order_button">Jetzt bestellen</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    <footer></footer>
 </body>
 <script src="./scripts/dishes_db.js"></script>
 <script src="./scripts/template.js"></script>
