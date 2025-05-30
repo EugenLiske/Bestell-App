@@ -1,0 +1,168 @@
+@media(max-width: 1200px) {
+    .banner_image {
+        height: 250px;
+    }
+
+    .restaurant_logo {
+        height: 100px;
+        top: 250px;
+    }
+
+    h1 {
+        font-size: 56px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .restaurant_name_container {
+        padding: 24px;
+    }
+
+    .restaurant_rating_text {
+        margin-top: 24px;
+    }
+
+    .category_bar {
+        padding: 24px;
+        gap: 36px;
+    }
+
+    .main_dishes_header {
+        padding-top: 24px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .order_dishes_container {
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-bottom: 24px;
+        font-size: 32px;
+    }
+}
+
+@media(max-width: 1000px) {
+    header {
+        padding: 20px;
+    }
+    .banner_image {
+        height: 200px;
+    }
+
+    .restaurant_logo {
+        height: 80px;
+        top: 200px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 24px;
+    }
+
+    .restaurant_name_container {
+        padding: 20px;
+    }
+
+    .restaurant_rating_text {
+        margin-top: 20px;
+    }
+
+    .category_bar {
+        padding: 20px;
+        gap: 30px;
+    }
+
+    .main_dishes_header {
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .main_dishes_banner_image {
+        height: 200px;
+    }
+
+    .order_dishes_container {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+
+    .basket_headline {
+        font-size: 26px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 850px) {
+    header {
+        padding: 18px;
+    }
+
+    .banner_image {
+        height: 160px;
+    }
+
+    .restaurant_logo {
+        height: 64px;
+        top: 160px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .restaurant_rating_text {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    .restaurant_name_container {
+        padding: 16px;
+    }
+
+    .main_dishes_header {
+        padding-top: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .order_dishes_container {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 16px;
+    }
+
+    .single_dish_container {
+        margin-bottom: 24px;
+    }
+}
+
+@media(max-width: 750px) {
+    .side_content {
+        display: none;
+    }
+
+    .open_responsive_basket_button_container {
+        display: flex;
+    }
+}

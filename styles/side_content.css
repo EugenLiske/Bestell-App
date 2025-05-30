@@ -63,7 +63,7 @@
 }
 
 .order_button {
-    background: rgb(17, 135, 171);
+    background: rgb(10, 76, 97);
     border-width: 1px;
     border-style: solid;
     border-color: rgba(0, 0, 0, 0.5);
@@ -72,6 +72,7 @@
     font-family: 'Roboto';
     font-size: 14px;
     cursor: pointer;
+    color: white;
 }
 
 .order_button:hover {

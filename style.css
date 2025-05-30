@@ -11,3 +11,22 @@ footer {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 64px;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background : rgb(10, 76, 97);
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background : rgb(0,152,161);
+  border-radius: 10px;
+  box-shadow:  0 0 10px rgba(0, 0, 0, 0.5);
+} 
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255 128 0 / 80%);
+}

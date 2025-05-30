@@ -11,8 +11,10 @@
     <link rel="stylesheet" href="./styles/side_content.css">
     <link rel="stylesheet" href="./styles/standard.css">
     <link rel="stylesheet" href="./styles/main_content.css">
+    <link rel="stylesheet" href="./styles/media_queries.css">
 </head>
 <body onload="init()">
+    <div class="responsive_assist_container">
     <header>
         <img src="./assets/icons/logo/Logo.png" alt="header_image">
     </header>
@@ -32,8 +34,8 @@
                 <p class="category_text">Hauptgerichte</p>
                 <p class="category_text">Beilagen</p>
                 <p class="category_text">Desserts</p>
-                <p class="category_text">Getränke</p>
-                <p class="category_text">Beliebt</p>
+                <!-- <p class="category_text">Getränke</p>
+                <p class="category_text">Beliebt</p> -->
             </div>
             <div class="main_dishes_header">
                 <img class="main_dishes_banner_image" src="/assets/img/main_dishes_banner.jpg" alt="main_dishes_banner_image">
@@ -51,6 +53,9 @@
                         <img class="shopping_icon_empty_basket" src="/assets/icons/logo/shopping_bag.png" alt="">
                         <p class="shopping_text_empty_basket">Wähle leckere Gerichte aus und bestelle dein Menü</p>
                     </div>
+                    <div class="d_none" id="after_order_message_container">
+                        <p class="after_order_message">Vielen Dank für Ihre Bestellung! Wir wünschen einen guten Appetit.</p>
+                    </div>
                 </div>
                 <hr class="d_none" id="basket_bottom_separator">
                 <div class="total_price_area d_none" id="total_price_area">
@@ -65,7 +70,16 @@
             </div>
         </div>
     </div>
+    <div class="open_responsive_basket_button_container">
+        <button onclick="toggleResponsiveBasket()" class="open_responsive_basket_button" id="open_responsive_basket_button">Warenkorb</button>
+    </div>
+    <div class="responsive_basket responsive_basket_closed" id="responsive_basket">
+        <div class="open_responsive_basket_button_container">
+            <button onclick="toggleResponsiveBasket()" class="open_responsive_basket_button" id="close_responsive_basket_button">Warenkorb</button>
+        </div>
+    </div>
     <footer></footer>
+    </div>
 </body>
 <script src="./scripts/dishes_db.js"></script>
 <script src="./scripts/template.js"></script>

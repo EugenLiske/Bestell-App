@@ -57,10 +57,6 @@ p {
     cursor: pointer;
 }
 
-/* .dish_description {
-    padding-left: 16px;
-} */
-
 .dish_price_text {
     margin-top: 16px;
     font-family: 'Roboto';
@@ -83,4 +79,10 @@ p {
     padding: 16px;
     font-size: 20px;
     font-weight: bold;
+}
+
+.after_order_message {
+    font-family: 'Akaya Kanadaka';
+    color: rgb(14,46,64);
+    text-align: center;
 }

@@ -18,7 +18,7 @@ function renderSingleDish(dishIndex){
                     <h3>${dishes[dishIndex].name}</h3>
                     <img onclick="addDishtoBasket(${dishIndex})" class="plus_sign" src="/assets/icons/logo/plus_sign.png" alt="plus_sign">
                 </div>
-                <p class="dish_description">${dishes[dishIndex].description}</p>
+                <p>${dishes[dishIndex].description}</p>
                 <p class="dish_price_text">${(dishes[dishIndex].price).toFixed(2)} €</p>
             </div>
     `
@@ -29,10 +29,12 @@ function addDishtoBasket(dishIndex){
     let currentAmountOfTheOrderedDishesRef = document.getElementById(`amountOfDish${dishIndex}`);
     let currentPriceOfTheOrderedDishesRef = document.getElementById(`priceOfDish${dishIndex}`);
 
+    
+
     document.getElementById('empty_basket_information').classList.add('d_none');
     document.getElementById('basket_bottom_separator').classList.remove('d_none');
     document.getElementById('total_price_area').classList.remove('d_none');
-    
+    document.getElementById('after_order_message_container').classList.add('d_none');
     
     if (dishes[dishIndex].amount == 0) {
         dishes[dishIndex].amount++;
@@ -130,13 +132,20 @@ function calculateTotalPriceInTheBasket(){
 
 function orderDishes(){
     document.getElementById('basket_bottom_separator').classList.add('d_none');
-    document.getElementById('total_price_area').classList.add('d_none');
-    // document.getElementById('basket').classList.add('d_none');
+    document.getElementById('total_price_area').classList.add('d_none'); // ist die Nutzung von d_none in Ordnung?
+    document.getElementById('after_order_message_container').classList.remove('d_none');
 
     for (let orderIndex = 0; orderIndex < dishes.length; orderIndex++) {
         dishes[orderIndex].amount = 0;
         let singleDishInsideTheBasketRef = document.getElementById(`single_dish_inside_the_basket${orderIndex}`);
-        singleDishInsideTheBasketRef.classList.add('d_none');
 
+        if(singleDishInsideTheBasketRef != null){
+        singleDishInsideTheBasketRef.remove();
+        }
     }
+}
+
+function toggleResponsiveBasket(){
+    document.getElementById('responsive_basket').classList.toggle('responsive_basket_closed');
+    document.getElementById("responsive_basket").scrollIntoView({ behavior: "smooth" }); // scrollt zum Anfang des Baskets
 }
