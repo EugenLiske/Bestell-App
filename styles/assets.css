@@ -15,7 +15,7 @@ header img {
     position: absolute;
     top: 300px;
     left: 50%;
-    transform: translate(-50%, -50%); /*verschiebt das Bild um 50% der eigenen Höhe und Breit nach links, sodass es exakt mittig ist */
+    transform: translate(-50%, -50%); /*verschiebt das Bild um 50% der eigenen Höhe und Breite nach links, sodass es exakt mittig ist */
 }
 
 .main_dishes_banner_image {

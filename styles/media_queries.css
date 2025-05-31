@@ -166,3 +166,76 @@
         display: flex;
     }
 }
+
+@media(max-width: 420px) {
+    header {
+        padding: 16px;
+    }
+
+    header img {
+        height: 48px;
+    }
+
+    .banner_image {
+        height: 150px;
+    }
+
+    .restaurant_logo {
+        height: 60px;
+        top: 150px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .restaurant_name_container {
+        padding: 12px;
+        margin-top: 24px;
+    }
+
+    .restaurant_rating_text {
+        margin-top: 12px;
+    }
+
+    .category_bar {
+        padding: 12px;
+        gap: 24px;
+    }
+
+    .main_dishes_header {
+        padding-top: 12px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .main_dishes_banner_image {
+        height: 150px;
+    }
+
+    .order_dishes_container {
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-bottom: 12px;
+    }
+
+    .basket_headline {
+        font-size: 26px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+}
