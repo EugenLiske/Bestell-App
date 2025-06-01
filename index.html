@@ -4,26 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bestellapp</title>
-    <link rel="shortcut icon" href="./assets/icons/favicon/android-chrome-512x512.png" type="image/x-icon">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./styles/assets.css">
-    <link rel="stylesheet" href="./styles/fonts.css">
-    <link rel="stylesheet" href="./styles/side_content.css">
-    <link rel="stylesheet" href="./styles/standard.css">
-    <link rel="stylesheet" href="./styles/main_content.css">
-    <link rel="stylesheet" href="./styles/media_queries.css">
+    <link rel="shortcut icon" href="assets/icons/favicon/android-chrome-512x512.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/assets.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/side_content.css">
+    <link rel="stylesheet" href="styles/standard.css">
+    <link rel="stylesheet" href="styles/main_content.css">
+    <link rel="stylesheet" href="styles/media_queries.css">
 </head>
-<body onload="init()">
+<body onload="renderAllDishes()">
     <div class="responsive_assist_container">
     <header>
-        <img src="./assets/icons/logo/Logo.png" alt="header_image">
+        <img src="assets/icons/logo/Logo.png" alt="header_image">
     </header>
 
     <div class="total_content">
         <div class="main_content">
             <div class="restaurant_information">
-                <img class="banner_image" src="/assets/img/indian_food_banner_image.jpg" alt="indian_food_banner_image">
-                <img class="restaurant_logo" src="/assets/icons/logo/restaurant_logo.png" alt="">
+                <img class="banner_image" src="assets/img/indian_food_banner_image.jpg" alt="indian_food_banner_image">
+                <img class="restaurant_logo" src="assets/icons/logo/restaurant_logo.png" alt="">
                 <div class="restaurant_name_container">
                     <h1>Indian Dream</h1>
                     <p>Besuchen Sie uns und überzeugen Sie sich selbst von unserer indischen Spezialitäten!</p>
@@ -38,7 +38,7 @@
                 <p class="category_text">Beliebt</p> -->
             </div>
             <div class="main_dishes_header">
-                <img class="main_dishes_banner_image" src="/assets/img/main_dishes_banner.jpg" alt="main_dishes_banner_image">
+                <img class="main_dishes_banner_image" src="assets/img/main_dishes_banner.jpg" alt="main_dishes_banner_image">
                 <h2>Hauptgerichte</h2>
             </div>
             <div class="order_dishes_container" id="order_dishes_container">
@@ -50,7 +50,7 @@
                 <hr>
                 <div class="basket" id="basket">
                     <div id="empty_basket_information" class="empty_basket_information">
-                        <img class="shopping_icon_empty_basket" src="/assets/icons/logo/shopping_bag.png" alt="">
+                        <img class="shopping_icon_empty_basket" src="assets/icons/logo/shopping_bag.png" alt="">
                         <p class="shopping_text_empty_basket">Wähle leckere Gerichte aus und bestelle dein Menü</p>
                     </div>
                     <div class="d_none" id="after_order_message_container">

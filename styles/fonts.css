@@ -2,7 +2,7 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: url('/assets/fonts/roboto-v47-latin/roboto-v47-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('../assets/fonts/roboto-v47-latin/roboto-v47-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* akaya-kanadaka-regular - latin */
@@ -11,7 +11,7 @@
   font-family: 'Akaya Kanadaka';
   font-style: normal;
   font-weight: 400;
-  src: url('/assets/fonts/akaya-kanadaka-v17-latin/akaya-kanadaka-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('../assets/fonts/akaya-kanadaka-v17-latin/akaya-kanadaka-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 body {
